@@ -20,7 +20,7 @@ footer {
     font-family: 'SegoeUI';
     font-weight: bold;
     font-size: 73px;
-    margin: 40px 0 20px;
+    margin-top: 15px;
     margin-bottom: -5px;
     text-align: center;
     color: white;
@@ -95,3 +95,5 @@ border-bottom-color: #376092;
 #projectTitle {
     margin-top: 0px;
 }
+
+

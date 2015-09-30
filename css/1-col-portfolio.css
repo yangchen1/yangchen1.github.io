@@ -45,7 +45,7 @@ footer {
 }
 
 #toplink {
-    color: white;
+    color: #ccc;
     font-weight: 50;
     text-decoration: underline;
 }
@@ -63,4 +63,35 @@ footer {
 #header {
     font-size: 16px;
     color: white;
+}
+
+#work {
+    border-bottom-width: 0px;
+}
+
+#work>li.active>a, #work>a:hover, #work>li>a:hover {
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+border-radius:0px;
+border-bottom-width: 4px;
+border-bottom-style: solid;
+border-bottom-color: #376092;
+    color: #000 !important;
+  background-color: transparent !important;
+}
+
+#work>li>a{
+    border-radius:0px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius:0px;
+    color: #376092 !important;
+  background-color: transparent !important;
+}
+
+#projectTitle {
+    margin-top: 0px;
 }

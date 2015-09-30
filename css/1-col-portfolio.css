@@ -19,12 +19,48 @@ footer {
 #name {
     font-family: 'SegoeUI';
     font-weight: bold;
+    font-size: 73px;
     margin: 40px 0 20px;
     margin-bottom: -5px;
+    text-align: center;
+    color: white;
 }
 
 #name_2 {
     font-family: 'SegoeUI';
-    margin: 40px 0 20px;
+    margin: 10px 0 20px;
     margin-bottom: -5px;
+}
+
+
+
+.header {
+    max-width: 400px;
+}
+
+
+
+#top {
+    background-color: #376092;
+}
+
+#toplink {
+    color: white;
+    font-weight: 50;
+    text-decoration: underline;
+}
+
+#toplink:hover {
+    color: #aaa;
+}
+
+#toplink: hover {
+    color: grey;
+}
+
+
+
+#header {
+    font-size: 16px;
+    color: white;
 }

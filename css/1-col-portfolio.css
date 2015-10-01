@@ -97,3 +97,24 @@ border-bottom-color: #376092;
 }
 
 
+
+#description {
+    font-size: 16px;
+}
+
+#linkButton {
+    background-color: #376092;
+}
+
+.circle {
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    text-align:center;
+    background:#000;
+    position: relative;
+}

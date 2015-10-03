@@ -18,12 +18,15 @@ footer {
 }
 #name {
     font-family: 'SegoeUI';
-    font-weight: bold;
-    font-size: 73px;
-    margin-top: 15px;
-    margin-bottom: -5px;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -4px;
     text-align: center;
-    color: white;
+    color: #376092;
+    letter-spacing: -3px;
 }
 
 #name_2 {
@@ -117,4 +120,66 @@ border-bottom-color: #376092;
     text-align:center;
     background:#000;
     position: relative;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 80px;
+    height: 80px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.titleCircle {
+    border-radius: 50%;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.center {
+    float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#initials {
+    margin-top: 25px;
 }

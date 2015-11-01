@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 10px 0;
 }
 
 @font-face {
@@ -182,4 +182,9 @@ border-bottom-color: #376092;
 
 #initials {
     margin-top: 25px;
+}
+
+#footer {
+    font-size: 12px;
+    text-align: center;
 }

@@ -15,22 +15,59 @@ footer {
 @font-face {
     font-family: 'SegoeUI';
     src: url('/fonts/segoeui.ttf') format('truetype');
+	font-weight: normal;
 }
-#name {
+
+@font-face {
     font-family: 'SegoeUI';
+    src: url('/fonts/segoeui-light.ttf') format('truetype');
+	font-weight: lighter;
+}
+
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/fonts/Avenir-Medium.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/fonts/Avenir-Heavy.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/fonts/Avenir-Light.ttf') format('truetype');
+	font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/fonts/Avenir-Book.ttf') format('truetype');
+	font-weight: 100;
+}
+
+/*p {
+	font-family: 'Avenir';
+	font-weight: lighter;
+}*/
+
+#name {
+    font-family: 'Avenir';
     font-weight: bolder;
-    font-size: 50px;
-    padding-top: 11px;
+    font-size: 40px;
+    padding-top: 23px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: -4px;
+    margin-left: -5px;
     text-align: center;
-    color: #376092;
+    color: #0068C1;
     letter-spacing: -3px;
 }
 
 #name_2 {
-    font-family: 'SegoeUI';
     margin: 10px 0 20px;
     margin-bottom: -5px;
 }
@@ -44,11 +81,22 @@ footer {
 
 
 #top {
-    background-color: #0068C1;
+    background-color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 0em;
+	padding-top: 2.5em;
 }
 
 #toplink {
-    color: #ccc;
+	font-weight: 200;
+	color: #ccc !important;
+    text-decoration: underline;
+}
+
+#toplink_title {
+	font-weight: normal;
+	font-family: 'SegoeUI';
+	color: #0068C1 !important;
     font-weight: 50;
     text-decoration: underline;
 }
@@ -65,7 +113,8 @@ footer {
 
 #header {
     font-size: 16px;
-    color: white;
+    color: #fff;
+	font-weight: 200;
 }
 
 #work {
@@ -79,7 +128,7 @@ font-weight: 500;
 border-radius:0px;
 border-bottom-width: 4px;
 border-bottom-style: solid;
-border-bottom-color: #376092;
+border-bottom-color: #0068C1;
     color: #000 !important;
   background-color: transparent !important;
 }
@@ -91,7 +140,7 @@ border-bottom-color: #376092;
     font-size: 20px;
     font-weight: 500;
     border-radius:0px;
-    color: #376092 !important;
+    color: #0068C1 !important;
   background-color: transparent !important;
 }
 
@@ -103,6 +152,7 @@ border-bottom-color: #376092;
 
 #description {
     font-size: 16px;
+	font-weight: 200;
 }
 
 #linkButton {
@@ -167,9 +217,10 @@ border-bottom-color: #376092;
 
 .titleCircle {
     border-radius: 50%;
-    background-color: white;
-    width: 80px;
-    height: 80px;
+	border: 5px solid #0068C1;
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
 }
 
 
@@ -213,4 +264,9 @@ border-bottom-color: #376092;
 .navbar-default {
 	border-width: 0;
 	margin-bottom: 0;
+}
+
+#intro {
+	background: #0068C1;
+	padding-bottom: 2.5em;
 }

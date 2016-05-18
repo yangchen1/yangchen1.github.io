@@ -8,8 +8,10 @@
         <meta content="" name="author">
         <title>
             Yang Chen
-        </title><!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS -->
+        </title>
+        <!-- Bootstrap Core CSS -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="css/1-col-portfolio.css" rel="stylesheet">
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
         <link href="/favicon.ico" rel="icon" type="image/x-icon">
@@ -23,6 +25,43 @@
     <![endif]-->
     </head>
     <body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+				
+			  <div class="navbar-brand flip-container center" href="#">
+                            <div class="flipper">
+                                <div class="front">
+                                    <div class="titleCircle">
+                                        <h1 id="name">
+                                            YC
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <img alt="YC" class=
+                                    "img-responsive img-circle" height="80px"
+                                    src="img/Singing_Colour.jpg" width="80px">
+                                </div>
+                            </div>
+                        </div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Link</a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
         <div class="jumbotron" id="top">
             <div class="container">
                 <!-- Page Heading -->
@@ -61,7 +100,7 @@
                 <br>
                 <br>
                 <div class="row">
-                    <div class="col-md-2"></div>
+					<div class="col-md-2"></div>
                     <div class="col-md-8">
                         <p id="header">
                             Hi there! I'm Yang. I'm an aspiring musician and
@@ -70,9 +109,9 @@
                             id="toplink" target="_blank">Systems Design
                             Engineering</a> at the University of Waterloo.<br>
                             <br>
-                            I'm the musical director of co-ed a cappella group
+                            I'm the musical director of award-winning, co-ed a cappella group
                             <a href=
-                            "http://www.youtube.com/watch?v=5bQIdLC8sF4" id=
+                            "https://www.youtube.com/watch?v=YGdEy76Q14E" id=
                             "toplink" target="_blank">The Committee</a>, and
                             chair of the <a href="http://facebook.com/UWACC"
                             id="toplink" target="_blank">UW A Cappella</a>
@@ -86,7 +125,7 @@
                             Thanks for visiting, and have a super day!
                         </p>
                     </div>
-                    <div class="col-md-2"></div>
+					<div class="col-md-2"></div>
                 </div><!-- /.row -->
             </div><br>
         </div>
@@ -121,6 +160,274 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div class="tab-pane fade in active" id="internships">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10">
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  <div class="panel panel-default">
+								<div class="panel-heading tab-top" role="tab" id="headingOne">
+								  <div class="row">
+									<div class="col-xs-2 text-center">
+										<img src="img/PS_Logo.png" class="img-responsive tab-image" alt="PlayStation Logo">
+									</div>
+									<div class="col-xs-8">
+										<h3 class="panel-title InternshipTitle">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												Sony Network Entertainment International
+											</a>
+									    </h3>
+										<h5>
+											May 2015 - August 2015
+										</h5>
+									  </div>
+									  <div class="col-xs-2"></div>
+									</div>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								  <div class="panel-body InternshipContent">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-8">
+											<p id="description">
+												Sony Network Entertainment International (SNEI)
+												develops the online network infrastructure for
+												Sony to provide top-quality entertainment
+												around the globe through games, videos, music,
+												and other services. I worked at the Waterloo
+												division, led by Tony Jedlovsky, on the design
+												team under my supervisor, Jesse Wong.<br>
+												<br>
+												The Waterloo division of SNEI is responsible
+												for software engineering and design of various
+												SNEI services such as the online PlayStation
+												store, MediaGo, and the PS Video App. As a user
+												experience designer, I was mainly responsible
+												for evaluating and improving the user
+												experience of the PlayStation web store. I
+												would like to thank Jesse Wong for being a
+												great mentor and supervisor, as well as Wynn
+												Yau for being a wonderful fellow design co-op
+												student to work with.
+											</p>
+											<div class="col-sm-12">
+												<img class="img-responsive img-thumbnail" src=
+												"img/Coffee_Cup_Crop.jpg"><br>
+											</div>
+											<div class="row"></div>
+											<h4>
+												<br>
+												UX has Feelings, Too
+											</h4>
+											<p id="description">
+												The main requirement for the PlayStation store
+												is that it must have the basic functions of an
+												e-commerce website: the ability to browse,
+												search, and purchase products. The store must
+												also be responsive, or be able to render itself
+												for proper viewing and interaction on mobile
+												devices, which have significantly smaller
+												screen space than a desktop computer.<br>
+												<br>
+												As part of a design overhaul project, the
+												design team decided to ask various employees at
+												the SNEI Waterloo location on what they thought
+												the overall user experience of the PlayStation
+												store should be using keywords that the design
+												team came up with while thinking about design
+												heuristics as well as the overall PlayStation
+												brand. Some key words were also added in by the
+												employees during the exercise. In the exercise,
+												the employees were asked to sort the words into
+												three tiers of importance, with the 1st tier
+												being the most important. In the following
+												table, the user experience keywords are shown
+												in order of their overall score.
+											</p><img class="img-responsive img-thumbnail" src=
+											"img/UXTable.png"><br>
+											<p id="description">
+												<br>
+												The overall score was calculated by giving
+												three points every time it was sorted into 1st
+												tier, two points every time it was sorted into
+												2nd tier, and one point every time it was
+												sorted into 3rd tier, then dividing up that
+												total by the number of employees that
+												participated (nine, in this case.) In other
+												words, if a key word was sorted into 1st tier
+												by all of the participants, its overall score
+												would be 3.<br>
+												<br>
+												As seen, some obvious user experience key words
+												are at the top. An e-commerce store most
+												certainly should be easy to use and organized,
+												and should perform fast to allow for the user
+												to get the product they want as quickly as
+												possible. Other, less technical terms also came
+												up, which the design team felt was important to
+												keep in mind, since users also want to feel
+												certain ways about the overall store based on
+												its aesthetics and user experience choices,
+												such as being seamless and engaging. These also
+												fit in with the PlayStation brand, as many
+												modern video games are becoming more and more
+												engaging, realistic, and seamless. Other design
+												requirements are that the mobile website should
+												include familiar mobile gesture like scrolling
+												down, offer menus for specific navigations,
+												offer an option use the full site, as well as
+												keeping high-level, important functions visible
+												at the top.<br>
+												<br>    
+												To remind ourselves of the keywords that we
+												came up with throughout the design process,
+												Wynn created a lovely wordle with the most
+												important keywords having the most prominence.
+											</p>
+											<div class="col-sm-12">
+												<img class="img-responsive img-thumbnail" src=
+												"img/Wordle.jpg">
+											</div>
+										</div>
+										<div class="col-md-2"></div>
+								  </div>
+								</div>
+							  </div>
+							  <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingTwo">
+								  <h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  Collapsible Group Item #2
+									</a>
+								  </h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  <div class="panel-body InternshipContent">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-8">
+											<p id="description">
+												Sony Network Entertainment International (SNEI)
+												develops the online network infrastructure for
+												Sony to provide top-quality entertainment
+												around the globe through games, videos, music,
+												and other services. I worked at the Waterloo
+												division, led by Tony Jedlovsky, on the design
+												team under my supervisor, Jesse Wong.<br>
+												<br>
+												The Waterloo division of SNEI is responsible
+												for software engineering and design of various
+												SNEI services such as the online PlayStation
+												store, MediaGo, and the PS Video App. As a user
+												experience designer, I was mainly responsible
+												for evaluating and improving the user
+												experience of the PlayStation web store. I
+												would like to thank Jesse Wong for being a
+												great mentor and supervisor, as well as Wynn
+												Yau for being a wonderful fellow design co-op
+												student to work with.
+											</p>
+											<div class="col-sm-12">
+												<img class="img-responsive img-thumbnail" src=
+												"img/Coffee_Cup_Crop.jpg"><br>
+											</div>
+											<div class="row"></div>
+											<h4>
+												<br>
+												UX has Feelings, Too
+											</h4>
+											<p id="description">
+												The main requirement for the PlayStation store
+												is that it must have the basic functions of an
+												e-commerce website: the ability to browse,
+												search, and purchase products. The store must
+												also be responsive, or be able to render itself
+												for proper viewing and interaction on mobile
+												devices, which have significantly smaller
+												screen space than a desktop computer.<br>
+												<br>
+												As part of a design overhaul project, the
+												design team decided to ask various employees at
+												the SNEI Waterloo location on what they thought
+												the overall user experience of the PlayStation
+												store should be using keywords that the design
+												team came up with while thinking about design
+												heuristics as well as the overall PlayStation
+												brand. Some key words were also added in by the
+												employees during the exercise. In the exercise,
+												the employees were asked to sort the words into
+												three tiers of importance, with the 1st tier
+												being the most important. In the following
+												table, the user experience keywords are shown
+												in order of their overall score.
+											</p><img class="img-responsive img-thumbnail" src=
+											"img/UXTable.png"><br>
+											<p id="description">
+												<br>
+												The overall score was calculated by giving
+												three points every time it was sorted into 1st
+												tier, two points every time it was sorted into
+												2nd tier, and one point every time it was
+												sorted into 3rd tier, then dividing up that
+												total by the number of employees that
+												participated (nine, in this case.) In other
+												words, if a key word was sorted into 1st tier
+												by all of the participants, its overall score
+												would be 3.<br>
+												<br>
+												As seen, some obvious user experience key words
+												are at the top. An e-commerce store most
+												certainly should be easy to use and organized,
+												and should perform fast to allow for the user
+												to get the product they want as quickly as
+												possible. Other, less technical terms also came
+												up, which the design team felt was important to
+												keep in mind, since users also want to feel
+												certain ways about the overall store based on
+												its aesthetics and user experience choices,
+												such as being seamless and engaging. These also
+												fit in with the PlayStation brand, as many
+												modern video games are becoming more and more
+												engaging, realistic, and seamless. Other design
+												requirements are that the mobile website should
+												include familiar mobile gesture like scrolling
+												down, offer menus for specific navigations,
+												offer an option use the full site, as well as
+												keeping high-level, important functions visible
+												at the top.<br>
+												<br>    
+												To remind ourselves of the keywords that we
+												came up with throughout the design process,
+												Wynn created a lovely wordle with the most
+												important keywords having the most prominence.
+											</p>
+											<div class="col-sm-12">
+												<img class="img-responsive img-thumbnail" src=
+												"img/Wordle.jpg">
+											</div>
+										</div>
+										<div class="col-md-2"></div>
+								  </div>
+								</div>
+								</div>
+							  </div>
+							  <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+								  <h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									  Collapsible Group Item #3
+									</a>
+								  </h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								  <div class="panel-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								  </div>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-md-6">
@@ -133,105 +440,7 @@
                             <h4>
                                 Introduction
                             </h4>
-                            <p id="description">
-                                Sony Network Entertainment International (SNEI)
-                                develops the online network infrastructure for
-                                Sony to provide top-quality entertainment
-                                around the globe through games, videos, music,
-                                and other services. I worked at the Waterloo
-                                division, led by Tony Jedlovsky, on the design
-                                team under my supervisor, Jesse Wong.<br>
-                                <br>
-                                The Waterloo division of SNEI is responsible
-                                for software engineering and design of various
-                                SNEI services such as the online PlayStation
-                                store, MediaGo, and the PS Video App. As a user
-                                experience designer, I was mainly responsible
-                                for evaluating and improving the user
-                                experience of the PlayStation web store. I
-                                would like to thank Jesse Wong for being a
-                                great mentor and supervisor, as well as Wynn
-                                Yau for being a wonderful fellow design co-op
-                                student to work with.
-                            </p>
-                            <div class="col-sm-12">
-                                <img class="img-responsive img-thumbnail" src=
-                                "img/Coffee_Cup_Crop.jpg"><br>
-                            </div>
-                            <div class="row"></div>
-                            <h4>
-                                <br>
-                                UX has Feelings, Too
-                            </h4>
-                            <p id="description">
-                                The main requirement for the PlayStation store
-                                is that it must have the basic functions of an
-                                e-commerce website: the ability to browse,
-                                search, and purchase products. The store must
-                                also be responsive, or be able to render itself
-                                for proper viewing and interaction on mobile
-                                devices, which have significantly smaller
-                                screen space than a desktop computer.<br>
-                                <br>
-                                As part of a design overhaul project, the
-                                design team decided to ask various employees at
-                                the SNEI Waterloo location on what they thought
-                                the overall user experience of the PlayStation
-                                store should be using keywords that the design
-                                team came up with while thinking about design
-                                heuristics as well as the overall PlayStation
-                                brand. Some key words were also added in by the
-                                employees during the exercise. In the exercise,
-                                the employees were asked to sort the words into
-                                three tiers of importance, with the 1st tier
-                                being the most important. In the following
-                                table, the user experience keywords are shown
-                                in order of their overall score.
-                            </p><img class="img-responsive img-thumbnail" src=
-                            "img/UXTable.png"><br>
-                            <p id="description">
-                                <br>
-                                The overall score was calculated by giving
-                                three points every time it was sorted into 1st
-                                tier, two points every time it was sorted into
-                                2nd tier, and one point every time it was
-                                sorted into 3rd tier, then dividing up that
-                                total by the number of employees that
-                                participated (nine, in this case.) In other
-                                words, if a key word was sorted into 1st tier
-                                by all of the participants, its overall score
-                                would be 3.<br>
-                                <br>
-                                As seen, some obvious user experience key words
-                                are at the top. An e-commerce store most
-                                certainly should be easy to use and organized,
-                                and should perform fast to allow for the user
-                                to get the product they want as quickly as
-                                possible. Other, less technical terms also came
-                                up, which the design team felt was important to
-                                keep in mind, since users also want to feel
-                                certain ways about the overall store based on
-                                its aesthetics and user experience choices,
-                                such as being seamless and engaging. These also
-                                fit in with the PlayStation brand, as many
-                                modern video games are becoming more and more
-                                engaging, realistic, and seamless. Other design
-                                requirements are that the mobile website should
-                                include familiar mobile gesture like scrolling
-                                down, offer menus for specific navigations,
-                                offer an option use the full site, as well as
-                                keeping high-level, important functions visible
-                                at the top.<br>
-                                <br>
-                                To remind ourselves of the keywords that we
-                                came up with throughout the design process,
-                                Wynn created a lovely wordle with the most
-                                important keywords having the most prominence.
-                            </p>
-                            <div class="col-sm-12">
-                                <img class="img-responsive img-thumbnail" src=
-                                "img/Wordle.jpg">
-                            </div>
+                            
                         </div>
                         <div class="col-md-3"></div>
                     </div>
@@ -327,6 +536,7 @@
                         <div class="col-md-3"></div>
                     </div>
                 </div>
+				</div>
                 <div class="tab-pane fade" id="projects">
                     <div class="row">
                         <div class="col-md-5">
@@ -756,7 +966,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <p id="footer">
-                            Designed &#38 Coded by Yang Chen<br> &copy; 2015
+                            Designed &#38 Coded by Yang Chen<br> &copy; 2016
                         </p>
                     </div>
                 </div><!-- /.row -->
@@ -772,7 +982,7 @@
         ga('send', 'pageview');
 
         </script> <!-- jQuery -->
-         <script src="js/jquery.js"></script> <!-- Bootstrap Core JavaScript -->
-         <script src="js/bootstrap.min.js"></script>
+         <script src="js/jquery.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
 </html>

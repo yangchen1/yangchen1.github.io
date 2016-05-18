@@ -44,7 +44,7 @@ footer {
 
 
 #top {
-    background-color: #376092;
+    background-color: #0068C1;
 }
 
 #toplink {
@@ -187,4 +187,30 @@ border-bottom-color: #376092;
 #footer {
     font-size: 12px;
     text-align: center;
+}
+
+.InternshipTitle {
+	font-size: 24px;
+}
+
+
+
+.tab-top {
+	background-color: #fff !important;
+	padding: 3.5em 15px 3em 15px;
+}
+
+.InternshipContent {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.tab-image {
+	max-width: 4em;
+	margin: auto;
+}
+
+.navbar-default {
+	border-width: 0;
+	margin-bottom: 0;
 }

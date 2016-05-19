@@ -63,7 +63,7 @@ footer {
     margin-bottom: 0px;
     margin-left: -5px;
     text-align: center;
-    color: #0068C1;
+    color: rgba(0, 104, 193, 0.8);
     letter-spacing: -3px;
 }
 
@@ -95,7 +95,7 @@ footer {
 
 #toplink_title {
 	font-weight: normal;
-	color: #0068C1 !important;
+	color: rgba(0, 104, 193, 0.8) !important;
     font-weight: 50;
     text-decoration: underline;
 }
@@ -127,7 +127,7 @@ font-weight: 500;
 border-radius:0px;
 border-bottom-width: 4px;
 border-bottom-style: solid;
-border-bottom-color: #0068C1;
+border-bottom-color: rgba(0, 104, 193, 0.8);
     color: #000 !important;
   background-color: transparent !important;
 }
@@ -139,7 +139,7 @@ border-bottom-color: #0068C1;
     font-size: 20px;
     font-weight: 500;
     border-radius:0px;
-    color: #0068C1 !important;
+    color: rgba(0, 104, 193, 0.8) !important;
   background-color: transparent !important;
 }
 
@@ -155,7 +155,7 @@ border-bottom-color: #0068C1;
 }
 
 #linkButton {
-    background-color: #376092;
+    background-color: rgba(0, 104, 193, 0.8);
 }
 
 .circle {
@@ -216,7 +216,7 @@ border-bottom-color: #0068C1;
 
 .titleCircle {
     border-radius: 50%;
-	border: 5px solid #0068C1;
+	border: 5px solid rgba(0, 104, 193, 0.8);
     background-color: #fff;
     width: 90px;
     height: 90px;

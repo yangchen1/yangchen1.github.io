@@ -94,8 +94,7 @@ footer {
 }
 
 #toplink_title {
-	font-weight: bolder;
-	font-family: 'SegoeUI';
+	font-weight: normal;
 	color: #0068C1 !important;
     font-weight: 50;
     text-decoration: underline;
@@ -270,4 +269,8 @@ border-bottom-color: #0068C1;
 	background: rgba(0, 104, 193, 0.8);
 	padding-bottom: 2.5em;
 	opacity: 20%;
+}
+
+.right {
+	text-align: right;
 }

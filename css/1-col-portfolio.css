@@ -24,7 +24,6 @@ footer {
 	font-weight: lighter;
 }
 
-
 @font-face {
     font-family: 'Avenir';
     src: url('/fonts/Avenir-Medium.ttf') format('truetype');
@@ -61,7 +60,7 @@ footer {
     padding-top: 23px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: -5px;
+    margin-left: -3px;
     text-align: center;
     color: rgba(0, 104, 193, 0.8);
     letter-spacing: -3px;
@@ -82,21 +81,14 @@ footer {
 
 #top {
     background-color: #fff;
-	margin-bottom: 0;
-	padding-bottom: 0em;
-	padding-top: 2.5em;
+	margin-bottom: -1em;
+	padding-bottom: 0;
+	padding-top: 1.8em;
 }
 
 #toplink {
 	font-weight: 200;
-	color: #ccc !important;
-    text-decoration: underline;
-}
-
-#toplink_title {
-	font-weight: normal;
-	color: rgba(0, 104, 193, 0.8) !important;
-    font-weight: 50;
+	color: #eee;
     text-decoration: underline;
 }
 
@@ -104,11 +96,12 @@ footer {
     color: #aaa;
 }
 
-#toplink: hover {
-    color: grey;
+#toplink_title {
+	color: #fff;
+	text-decoration: underline;
+	font-family: 'Avenir';
+	font-weight: normal;
 }
-
-
 
 #header {
     font-size: 16px;
@@ -116,38 +109,34 @@ footer {
 	font-weight: 200;
 }
 
-#work {
-    border-bottom-width: 0px;
-}
 
-#work>li.active>a, #work>a:hover, #work>li>a:hover {
-text-decoration: none;
-font-size: 20px;
-font-weight: 500;
-border-radius:0px;
-border-bottom-width: 4px;
-border-bottom-style: solid;
-border-bottom-color: rgba(0, 104, 193, 0.8);
+
+#navbar>li.active>a, #navbar>a:hover, #navbar>li>a:hover {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius:0px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0, 104, 193, 0.8);
     color: #000 !important;
-  background-color: transparent !important;
+  	background-color: transparent !important;
 }
 
-#work>li>a{
+#navbar>li>a{
     border-radius:0px;
     border: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     border-radius:0px;
     color: rgba(0, 104, 193, 0.8) !important;
-  background-color: transparent !important;
+  	background-color: transparent !important;
 }
 
 #projectTitle {
     margin-top: 0px;
 }
-
-
 
 #description {
     font-size: 16px;
@@ -226,8 +215,9 @@ border-bottom-color: rgba(0, 104, 193, 0.8);
 
 .center {
     float: none;
-     margin-left: auto;
-     margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
 }
 
 #initials {
@@ -267,10 +257,71 @@ border-bottom-color: rgba(0, 104, 193, 0.8);
 
 #intro {
 	background: rgba(0, 104, 193, 0.8);
+	border-radius: 0em;
 	padding-bottom: 2.5em;
 	opacity: 20%;
 }
 
 .right {
 	text-align: right;
+}
+
+.container {
+	
+}
+
+.btn-primary {
+	background-color: rgba(0, 104, 193, 0.8);
+}
+
+p {
+	font-size: 16px;
+	font-weight: 200;
+	font-family: 'Avenir';
+}
+
+.home-image {
+	max-height: 200px;
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+h5 {
+	color: #666;
+}
+
+#back {
+	margin-top: 2em;
+}
+
+.img-logo {
+	max-width: 10em;
+    max-height: 7.5em;
+	margin: 0 auto;
+}
+
+.projectHeader {
+    margin-top: 0px;
+	text-align: center;
+}
+
+
+
+
+
+#navbar {
+	border-bottom-width: 0px;
+	font-family: 'Avenir';
+	font-weight: bold;
+}
+
+.navlink {
+  font-family: 'Avenir';
+  text-decoration: underline;
 }

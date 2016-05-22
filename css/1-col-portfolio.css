@@ -271,7 +271,7 @@ footer {
 }
 
 .btn-primary {
-	background-color: rgba(0, 104, 193, 0.8);
+    background-color: rgba(0, 104, 193, 0.8);
 }
 
 p {
@@ -301,7 +301,6 @@ h5 {
 }
 
 .img-logo {
-	max-width: 10em;
     max-height: 7.5em;
 	margin: 0 auto;
 }

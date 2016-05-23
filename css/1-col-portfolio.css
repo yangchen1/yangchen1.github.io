@@ -328,3 +328,19 @@ h5 {
 .img-project {
   max-height: 47em;
 }
+
+#linkTitle {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.img-project-sm {
+  max-height: 35em;
+}
+
+.caption {
+  font-size: 13px;
+  font-family: inherit;
+  color: #999;
+  margin-top: 0.5em;
+}

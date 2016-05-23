@@ -324,3 +324,7 @@ h5 {
   font-family: 'Avenir';
   text-decoration: underline;
 }
+
+.img-project {
+  max-height: 70em;
+}

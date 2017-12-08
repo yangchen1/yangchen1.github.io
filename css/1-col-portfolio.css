@@ -55,12 +55,10 @@ footer {
 
 #name {
     font-family: 'Avenir';
-    font-weight: bolder;
-    font-size: 40px;
-    padding-top: 23px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: -3px;
+    font-weight: 1000;
+    font-size: 25px;
+    padding-top: 15px;
+    margin: -4.1px 0 0 -4px;
     text-align: center;
     color: rgba(0, 104, 193, 0.8);
     letter-spacing: -3px;
@@ -80,15 +78,11 @@ footer {
 
 
 #top {
-    background-color: #fff;
-	margin-bottom: -1em;
-	padding-bottom: 0;
-	padding-top: 1.8em;
+	padding: 1em 0 2em;
 }
 
 #toplink {
 	font-weight: 200;
-	color: #eee;
     text-decoration: underline;
 }
 
@@ -105,18 +99,20 @@ footer {
 
 #header {
     font-size: 16px;
-    color: #fff;
+    color: #000;
 	font-weight: 200;
 }
 
+a:focus, a:hover {
+    text-decoration: none;
+}
 
-
-#navbar>li.active>a, #navbar>a:hover, #navbar>li>a:hover {
+#navbar>li.active>a, #navbar>a:hover, #navbar>li>a:hover{
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: 500;
 	border-radius:0px;
-	border-bottom-width: 4px;
+	border-bottom-width: 3px;
 	border-bottom-style: solid;
 	border-bottom-color: rgba(0, 104, 193, 0.8);
     color: #000 !important;
@@ -132,6 +128,9 @@ footer {
     border-radius:0px;
     color: rgba(0, 104, 193, 0.8) !important;
   	background-color: transparent !important;
+    padding: 10px 0px 2px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 90%;
 }
 
 #projectTitle {
@@ -145,7 +144,7 @@ footer {
 
 #linkButton {
     background-color: rgba(0, 104, 193, 0.8);
-}
+} 
 
 .circle {
     width:80px;
@@ -205,13 +204,11 @@ footer {
 
 .titleCircle {
     border-radius: 50%;
-	border: 5px solid rgba(0, 104, 193, 0.8);
+	border: 4px solid rgba(0, 104, 193, 0.8);
     background-color: #fff;
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
 }
-
-
 
 .center {
     float: none;
@@ -221,7 +218,7 @@ footer {
 }
 
 #initials {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 #footer {
@@ -256,22 +253,31 @@ footer {
 }
 
 #intro {
-	background: rgba(0, 104, 193, 0.8);
-	border-radius: 0em;
+	/*background: rgba(0, 104, 193, 0.8);*/
 	padding-bottom: 2.5em;
-	opacity: 20%;
+    height: 40rem;
+    /*background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(../img/Yang_Singing_Edit.png) no-repeat center fixed;
+    background-color: rgba(0,0,0,0.9);
+    background-size: cover;*/
 }
 
 .right {
 	text-align: right;
 }
 
-.container {
-	
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1100px;
+    }
 }
 
 .btn-primary {
-    background-color: rgba(0, 104, 193, 0.8);
+    background-color: rgba(0, 104, 193, 1);
+    border-color: rgba(0, 104, 193, 1);
+    border-width: 2px;
+    font-family: 'Avenir';
+    font-weight: 300;
+    border-radius: 0;
 }
 
 p {
@@ -290,6 +296,7 @@ p {
 h4 {
 	font-weight: bold;
 	font-size: 16px;
+    color: rgba(0, 104, 193, 0.8);
 }
 
 h5 {
@@ -318,6 +325,7 @@ h5 {
 	border-bottom-width: 0px;
 	font-family: 'Avenir';
 	font-weight: bold;
+    padding-top: 0.5em;
 }
 
 .navlink {
@@ -353,4 +361,49 @@ h5 {
 .paragraph_link {
   color: rgba(0, 104, 193, 0.8);
   text-decoration: underline;
+}
+
+.link-primary {
+  border-width: 0px;
+  font-weight: 600;
+  color: rgba(0, 104, 193, 1);
+  
+}
+
+h3 {
+  font-size: 30px;
+}
+
+a.logo:hover #name {
+    color: #000 !important;
+}
+
+#navbar>li.active>a.logo #name {
+    color: #000 !important;
+}
+
+#navbar a.logo {
+    border-bottom-width: 0 !important;
+}
+
+#title {
+  font-family: 'Avenir';
+  letter-spacing: -1px;
+  font-weight: 1000;
+}
+
+#home_image {
+  background: linear-gradient(rgba(256,256,256,0) 65%, rgba(256,256,256,1)), url(../img/trees_sketch.png) no-repeat right/contain scroll;
+  height: 100%;
+  margin: auto auto auto -20px;
+}
+
+.logo_nav {
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+    .logo_nav {
+      padding: 0 50em 0 12px;
+    }
 }

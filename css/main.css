@@ -57,8 +57,8 @@ footer {
     font-family: 'Avenir';
     font-weight: 1000;
     font-size: 25px;
-    padding-top: 15px;
-    margin: -4.1px 0 0 -4px;
+    padding-top: 14.6px;
+    margin: -4.2px 0 0 -3.5px;
     text-align: center;
     color: rgba(0, 104, 193, 0.8);
     letter-spacing: -3px;
@@ -83,7 +83,6 @@ footer {
 
 #toplink {
 	font-weight: 200;
-    text-decoration: underline;
 }
 
 #toplink:hover {
@@ -101,6 +100,10 @@ footer {
     font-size: 16px;
     color: #000;
 	font-weight: 200;
+}
+
+a {
+  text-decoration: underline;
 }
 
 a:focus, a:hover {
@@ -280,17 +283,22 @@ a:focus, a:hover {
     border-radius: 0;
 }
 
-p {
-	font-size: 16px;
-	font-weight: 200;
-	font-family: 'Avenir';
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Avenir' !important;
 }
 
-.home-image {
-	max-height: 200px;
-	width: 100%;
-	object-fit: cover;
-	overflow: hidden;
+h3 {
+  
+}
+
+h1 {
+  font-family: 'Avenir-Heavy' !important;
+  letter-spacing: -1px;
+  font-size: 3em
+}
+
+h3 {
+  font-family: 'Avenir-Medium' !important;
 }
 
 h4 {
@@ -301,6 +309,19 @@ h4 {
 
 h5 {
 	color: #666;
+}
+
+p {
+	font-family: 'Avenir' !important;
+    font-size: 16px;
+	font-weight: 200;
+} 
+
+.home-image {
+	max-height: 200px;
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
 }
 
 #back {
@@ -354,8 +375,9 @@ h5 {
 }
 
 #footer-sub {
-  font-size: 10px;
+    font-size: 9px;
     text-align: center;
+    margin-top: -12px;
 }
 
 .paragraph_link {
@@ -370,9 +392,7 @@ h5 {
   
 }
 
-h3 {
-  font-size: 30px;
-}
+
 
 a.logo:hover #name {
     color: #000 !important;
@@ -393,7 +413,7 @@ a.logo:hover #name {
 }
 
 #home_image {
-  background: linear-gradient(rgba(256,256,256,0) 65%, rgba(256,256,256,1)), url(../img/trees_sketch.png) no-repeat right/contain scroll;
+  background: linear-gradient(rgba(256,256,256,0) 90%, rgba(256,256,256,1)), url(../img/trees_sketch.png) no-repeat right/contain scroll;
   height: 100%;
   margin: auto auto auto -20px;
 }
@@ -406,4 +426,17 @@ a.logo:hover #name {
     .logo_nav {
       padding: 0 50em 0 12px;
     }
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#highlight {
+  
 }

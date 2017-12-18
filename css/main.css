@@ -19,19 +19,19 @@ footer {
 }
 
 @font-face {
-    font-family: 'Avenir';
+    font-family: 'Avenir-Heavy';
     src: url('/fonts/Avenir-Heavy.ttf') format('truetype');
 	font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Avenir';
+    font-family: 'Avenir-Light';
     src: url('/fonts/Avenir-Light.ttf') format('truetype');
 	font-weight: lighter;
 }
 
 @font-face {
-    font-family: 'Avenir';
+    font-family: 'Avenir-Book';
     src: url('/fonts/Avenir-Book.ttf') format('truetype');
 	font-weight: 100;
 }

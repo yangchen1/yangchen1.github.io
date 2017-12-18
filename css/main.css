@@ -279,6 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Avenir' !important;
+  font-weight: bold;
   letter-spacing: -1px;
   font-size: 3em
 }
@@ -447,7 +448,6 @@ img {
 #title_name {
   font-family: 'Avenir';
   letter-spacing: -1.6px;
-  font-weight: bold;
 }
 
 .project_st {

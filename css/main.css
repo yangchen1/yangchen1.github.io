@@ -19,25 +19,26 @@ footer {
 }
 
 @font-face {
-    font-family: 'Avenir-Heavy';
+    font-family: 'Avenir';
     src: url('/fonts/Avenir-Heavy.ttf') format('truetype');
 	font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Avenir-Light';
+    font-family: 'Avenir';
     src: url('/fonts/Avenir-Light.ttf') format('truetype');
 	font-weight: lighter;
 }
 
 @font-face {
-    font-family: 'Avenir-Book';
+    font-family: 'Avenir';
     src: url('/fonts/Avenir-Book.ttf') format('truetype');
 	font-weight: 100;
 }
 
 #name {
-    font-family: 'Avenir-Heavy';
+    font-family: 'Avenir';
+    font-weight: bold;
     font-size: 25px;
     padding-top: 14.6px;
     margin: -4.2px 0 0 -3.5px;
@@ -444,8 +445,9 @@ img {
 }
 
 #title_name {
-  font-family: 'Avenir-Heavy';
+  font-family: 'Avenir';
   letter-spacing: -1.6px;
+  font-weight: bold;
 }
 
 .project_st {

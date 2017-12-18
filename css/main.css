@@ -278,13 +278,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  font-family: 'Avenir-Heavy' !important;
+  font-family: 'Avenir' !important;
   letter-spacing: -1px;
   font-size: 3em
 }
 
 h3 {
-  font-family: 'Avenir-Medium' !important;
+  font-family: 'Avenir' !important;
   margin-bottom: 0.6em;
 }
 

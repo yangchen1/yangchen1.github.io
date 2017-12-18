@@ -21,7 +21,7 @@ footer {
 @font-face {
     font-family: 'Avenir';
     src: url('/fonts/Avenir-Heavy.ttf') format('truetype');
-	font-weight: bold;
+	font-weight: 900;
 }
 
 @font-face {
@@ -38,7 +38,7 @@ footer {
 
 #name {
     font-family: 'Avenir';
-    font-weight: bold;
+    font-weight: 900;
     font-size: 25px;
     padding-top: 14.6px;
     margin: -4.2px 0 0 -3.5px;

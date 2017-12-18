@@ -100,7 +100,7 @@ a:hover {
 #navbar>li.active>a, #navbar>a:hover, #navbar>li>a:hover{
 	text-decoration: none;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 100;
 	border-radius:0px;
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
@@ -198,6 +198,7 @@ a:hover {
     background-color: #fff;
     width: 50px;
     height: 50px;
+    margin: 0 auto;
 }
 
 .center {
@@ -404,6 +405,7 @@ a.logo:hover #name {
 
 #navbar a.logo {
     border-bottom-width: 0 !important;
+    margin: 0 0 0 -2.5px;
 }
 
 #title {
@@ -421,13 +423,11 @@ a.logo:hover #name {
   margin: auto auto auto -20px;
 }
 
-.logo_nav {
 
-}
 
 @media (min-width: 768px) {
     .logo_nav {
-      padding: 0 55em 0 12px;
+      padding: 0 0em 0 12px;
       margin: auto;
     }
 }
@@ -468,4 +468,8 @@ img {
 
 #mobile_screen {
   height: 4em;
+}
+
+#spacing {
+  padding: 0 26em;
 }

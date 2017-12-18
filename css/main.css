@@ -405,7 +405,7 @@ a.logo:hover #name {
 
 #navbar a.logo {
     border-bottom-width: 0 !important;
-    margin: 0 0 0 -2.5px;
+    margin: 0 0 0 -4px;
 }
 
 #title {

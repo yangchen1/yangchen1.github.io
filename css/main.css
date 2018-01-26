@@ -484,3 +484,12 @@ img {
 #works {
 
 }
+
+#about_background {
+  background: url("/img/Yang_Singing_Edit.png") no-repeat;
+  background-size: cover;
+}
+
+.overlay_text {
+  text-color: #fff !important;
+}
